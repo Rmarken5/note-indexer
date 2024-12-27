@@ -1,0 +1,9 @@
+---
+tags:
+  - {{.Name}}
+---
+# {{.Name}}
+
+{{ range .Notes }}
+[[{{.NoteName}}]]
+{{ end }}
